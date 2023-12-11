@@ -12,20 +12,5 @@ for (let i = 1; i<=numbers; i++) {
 
 participants.sort();
 
-//
-const participantlist = document.getElementById('participantlisti');
-
-const heading =document.createElement('h2');
-heading.textContent = 'Participant names';
-
-const orderedlist =document.createElement('ol');
-
-for (let i = 0; i<=numbers; i++) {
-    const listitem = document.createElement('li');
-    listitem.textContent = participants[i];
-    orderedlist.appendChild(listitem);
-}
-
-participantlist.appendChild(heading);
-participantlist.appendChild(orderedlist);
+document.querySelector('participantlisti').innerHTML = participants;
 

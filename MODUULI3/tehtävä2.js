@@ -13,5 +13,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     kohde.appendChild(uus);
     kohde.appendChild(tokauus);
-
 });

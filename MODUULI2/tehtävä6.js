@@ -11,7 +11,12 @@ do {
     tulos = noppa();
 } while (tulos !== 6)
 
-//
+for (let i = 1; i<=lista.length; i++) {
+    const vastaus = 'Nopanheitossa saatu silmäluku:';
+    console.log(lista[i]);
+}
+
+//*
 
 const participantlist = document.getElementById('Noppalista');
 
@@ -28,3 +33,5 @@ for (let i = 0; i<lista.length; i++) {
 
 participantlist.appendChild(heading);
 participantlist.appendChild(unorderedlist);
+
+//*

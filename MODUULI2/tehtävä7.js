@@ -2,7 +2,7 @@
 let tulos
 const lista = [];
 
-const tahkot = +prompt('Anna tahkojen määrä;');
+const tahkot = +prompt('Anna tahkojen määrä: ');
 
 function noppa(sides) {
     const randomNumero = Math.floor(Math.random() * sides) + 1;
